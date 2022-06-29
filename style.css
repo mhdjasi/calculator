@@ -90,7 +90,7 @@ background-color: #ffffff3d;
     color: #ffffff;
 }
 #equal:hover{
-    box-shadow: 0 8px 25px #413030;
+    border: 2px solid white;
 }
 #zero{
     grid-column: span 2;

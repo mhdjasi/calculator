@@ -16,38 +16,39 @@
                 <input type="text" placeholder="0" id="input">
             </div>
             <div class="buttons">
-                <b><input type="button" value="AC" id="clear"></b>
+                <b><input type="button" onclick="clearBox()" value="AC" id="clear"></b>
     
-                <b><input type="button" value="Del" id="erase"></b>
+                <b><input type="button" onclick="removeItem()" value="Del" id="erase"></b>
     
-                <input type="button" value="÷" class="input-button">
+                <input type="button" onclick="displayNum('÷')" value="÷" class="input-button">
     
-                <input type="button" value="*" class="input-button">
+                <input type="button" onclick="displayNum('*')" value="*" class="input-button">
     
-                <input type="button" value="7" class="input-button">
+                <input type="button" onclick="displayNum('7')" value="7" class="input-button">
     
-                <input type="button" value="8" class="input-button">
+                <input type="button" onclick="displayNum('8')" value="8" class="input-button">
     
-                <input type="button" value="9" class="input-button">
+                <input type="button" onclick="displayNum('9')" value="9" class="input-button">
     
-                <input type="button" value="-" class="input-button">
+                <input type="button" onclick="displayNum('-')" value="-" class="input-button">
     
-                <input type="button" value="6" class="input-button" />
-                <input type="button" value="5" class="input-button" />
-                <input type="button" value="4" class="input-button" />
-                <input type="button" value="+" class="input-button" />
+                <input type="button" onclick="displayNum('4')" value="4" class="input-button" />
+                <input type="button" onclick="displayNum('5')" value="5" class="input-button" />
+                <input type="button" onclick="displayNum('6')" value="6" class="input-button" />
+                <input type="button" onclick="displayNum('+')" value="+" class="input-button" />
         
-                <input type="button" value="1" class="input-button" />
-                <input type="button" value="2" class="input-button" />
-                <input type="button" value="3" class="input-button" />
+                <input type="button" onclick="displayNum('1')" value="1" class="input-button" />
+                <input type="button" onclick="displayNum('2')" value="2" class="input-button" />
+                <input type="button" onclick="displayNum('3')" value="3" class="input-button" />
         
-            <input type="button" value="=" id="equal" />
-                <input type="button" value="0" id="zero" class="input-button" />
-                <input type="button" value="." class="input-button" />
+            <input type="button" onclick="evaluateExpr()" value="=" id="equal" />
+                <input type="button" onclick="displayNum('0')" value="0" id="zero" class="input-button" />
+                <input type="button" onclick="displayNum('.')" value="." class="input-button" />
     
             </div>
         </div>
     </center>
 </body>
-
+<!-- link js file -->
+<script src="script.js"></script>
 </html>
